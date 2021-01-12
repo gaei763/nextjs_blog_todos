@@ -3,8 +3,8 @@ import Layout from "../components/Layout"
 
 const Home = () => {
 	return (
-		<Layout title="Login">
-			<Auth></Auth>
+		<Layout title="Log in">
+			<Auth />
 		</Layout>
 	)
 }

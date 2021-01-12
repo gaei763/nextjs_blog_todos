@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { useRouter } from "next/router"
-import Layout from "../../components/layout"
+import Layout from "../../components/Layout"
 import { getAllPostsIds, getPostsData } from "../../lib/posts"
 
 const Post = ({ post }) => {

@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { useRouter } from "next/router"
-import Layout from "../../components/layout"
+import Layout from "../../components/Layout"
 import { getAllTasksIds, getTasksData } from "../../lib/tasks"
 import useSWR from "swr"
 import { useEffect } from "react"
