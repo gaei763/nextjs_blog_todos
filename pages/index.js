@@ -1,5 +1,5 @@
-import Auth from "../compornents/Auth"
-import Layout from "../compornents/Layout"
+import Auth from "../components/Auth"
+import Layout from "../components/Layout"
 
 export const Home = () => {
 	return (

@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { useRouter } from "next/router"
-import Layout from "../../compornents/layout"
+import Layout from "../../components/layout"
 import { getAllPostsIds, getPostsData } from "../../lib/posts"
 
 const Post = ({ post }) => {
@@ -10,7 +10,7 @@ const Post = ({ post }) => {
 	}
 
 	return (
-		<Layout>
+		<Layout title={post.title}>
 			<p className="m-4">{`ID : ${post.id}`}</p>
 			<p className="mb-4 text-xl font-bold">{post.title}</p>
 			<p className="mb-12">{post.created_at}</p>
@@ -27,7 +27,7 @@ const Post = ({ post }) => {
 						<path
 							strokeLinecap="round"
 							strokeLinejoin="round"
-							strokeWidth="2"
+							strokeWidth={2}
 							d="M11 19l-7-7 7-7m8 14l-7-7 7-7"
 						></path>
 					</svg>
